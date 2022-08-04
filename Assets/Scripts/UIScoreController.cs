@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class UIScoreController : MonoBehaviour
 {
-
+    [SerializeField] private Text score;
     [Header("UI")]
-    public Text score;
+    
     public Text highScore;
 
     [Header("Score")]
